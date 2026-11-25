@@ -1,0 +1,12 @@
+{
+  "_comment": "MedGemma 27B text, after you deploy google/medgemma-27b-text-it from Vertex AI Model Garden. Fill VERTEX_PROJECT and VERTEX_ENDPOINT_ID. Change VERTEX_LOCATION if the endpoint is not in us-central1. VERTEX_SERVED_MODEL is empty because a dedicated endpoint expects model=\"\". There is no API key: authenticate with Application Default Credentials (gcloud auth application-default login, or GOOGLE_APPLICATION_CREDENTIALS). VERTEX_ACCESS_TOKEN is an optional static token and expires in about an hour. Tool calling uses Chat Completions, so the vLLM deployment must be started with --enable-auto-tool-choice.",
+  "MODEL_PROVIDER": "vertex",
+  "MODEL_NAME": "google/medgemma-27b-text-it",
+  "VERTEX_SERVED_MODEL": "",
+  "VERTEX_PROJECT": "",
+  "VERTEX_LOCATION": "us-central1",
+  "VERTEX_ENDPOINT_ID": "",
+  "VERTEX_API_VERSION": "v1beta1",
+  "USE_RESPONSES_API": false,
+  "STRUCTURED_OUTPUT_METHOD": "function_calling"
+}

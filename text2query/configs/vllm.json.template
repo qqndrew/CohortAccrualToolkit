@@ -1,0 +1,9 @@
+{
+  "_comment": "MedGemma 27B text served by vLLM as google/medgemma-27b-text-it (the id from /v1/models; there is no --served-model-name override).VLLM_ENDPOINT is that local forward. VLLM_API_KEY is EMPTY because the server was not started with --api-key. Tool calling uses Chat Completions, so the server must be started with --enable-auto-tool-choice.",
+  "MODEL_PROVIDER": "vllm",
+  "MODEL_NAME": "google/medgemma-27b-text-it",
+  "VLLM_ENDPOINT": "http://127.0.0.1:8123/v1",
+  "VLLM_API_KEY": "EMPTY",
+  "USE_RESPONSES_API": false,
+  "STRUCTURED_OUTPUT_METHOD": "function_calling"
+}

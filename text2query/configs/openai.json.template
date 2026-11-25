@@ -1,0 +1,8 @@
+{
+  "_comment": "Large GPT agent run. gpt-6.2-astra is the current flagship. Paste your key into OPENAI_API_KEY. USE_RESPONSES_API is required: this model accepts Chat Completions, but tool calling only works on the Responses API. With that flag on, structured output defaults to json_schema.",
+  "MODEL_PROVIDER": "openai",
+  "MODEL_NAME": "gpt-6.2-astra",
+  "OPENAI_API_KEY": "",
+  "USE_RESPONSES_API": true,
+  "EMBEDDING_MODEL_NAME": "text-embedding-3-large"
+}

@@ -1,0 +1,4 @@
+# Filled agent configs can hold API keys and endpoint ids.
+# Any *.json in this folder is ignored. *.json.template stays tracked.
+text2query/configs/*.json
+!text2query/configs/*.json.template

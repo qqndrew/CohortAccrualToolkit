@@ -1,0 +1,6 @@
+[submodule "text2query/implementation"]
+	path = text2query/implementation
+	url = git@github.com:qqndrew/PHOENIX-EHR.git
+[submodule "text2query/evaluation"]
+	path = text2query/evaluation
+	url = git@github.com:qqndrew/cat-eval-annotation-construction.git
